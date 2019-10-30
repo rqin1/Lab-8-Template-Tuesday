@@ -79,6 +79,6 @@ public class CityList {
     }
 
     public City getFirstCity(){
-        return new City("sample","Sample");
+        return cities.get(0);
     }
 }
